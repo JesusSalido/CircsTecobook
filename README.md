@@ -10,19 +10,7 @@ De este modo los dos directorios del repositorio corresponden a cada una de dich
 -----
 #### Citación y contacto
 
-Si estos circuitos le resultan de utilidad considere la posibilidad de citar este repositorio con la información del registro `bib`:
-
-```
-@www{salidoCircsTecoBook,
-  author       = {Jesús Salido},
-  title        = {Circuitos Logisim},
-  year         = {2024},
-  editor       = {GitHub},
-  organization = {Universidad de Castilla-La Mancha},
-  url          = {https://github.com/JesusSalido/},
-  doi          = {}
-}
-```
+Si estos circuitos le resultan de utilidad considera la posibilidad de citar este repositorio con la información de citación dsiponibel en zenodo.
 
 Comunique cualquier asunto relacionado con este repositorio (comentarios, errores, incompatibilidades, mejoras, etc.) a:
 
