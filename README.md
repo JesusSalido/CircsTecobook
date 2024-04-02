@@ -10,7 +10,7 @@ De este modo, los dos directorios del repositorio corresponden a cada una de dic
 -----
 #### Citación y contacto
 
-Si estos circuitos le resultan de utilidad considera la posibilidad de citar este repositorio con la información de citación dsiponibel en zenodo.
+Si estos circuitos le resultan de utilidad considera la posibilidad de citar este repositorio con la información de citación disponible en zenodo.
 
 Comunique cualquier asunto relacionado con este repositorio (comentarios, errores, incompatibilidades, mejoras, etc.) a:
 
