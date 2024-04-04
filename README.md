@@ -1,5 +1,6 @@
 # Lógica Digital y Tecnología de Computadores - Un enfoque práctico mediante simulación con Logisim
 (por Jesús Salido)
+
 <img src="./Portadas Teco Vol1-2.png" width="650">
 
 En este repositorio se han recopilado los circuitos de Logisim empleados durante la elaboración de las obras:
