@@ -13,7 +13,7 @@ De este modo, los dos directorios del repositorio corresponden a cada una de dic
 #### Citación y contacto
 
 Si estos circuitos le resultan de utilidad considere la posibilidad de citar este repositorio con la información de citación disponible en zenodo.
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10828924.svg)](https://doi.org/10.5281/zenodo.10828924)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10828923.svg)](https://doi.org/10.5281/zenodo.10828923)
 
 Comunique cualquier asunto relacionado con este repositorio (comentarios, errores, incompatibilidades, mejoras, etc.) a:
 
