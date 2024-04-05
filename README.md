@@ -3,7 +3,7 @@
 
 <img src="./Portadas Teco Vol1-2.png" width="800">
 
-En este repositorio se han recopilado los circuitos de Logisim empleados durante la elaboración de las obras:
+En este repositorio se han recopilado los circuitos de Logisim empleados durante la elaboración de los manuales docentes:
 - Lógica Digital y Tecnología de Computadores - Un enfoque práctico mediante simulación con Logisim. Eds. de la Universidad de Castilla-La Mancha, sep. 2023. ISBN: 978-84-9044-621-8. DOI: [10.18239/manuales\_2023.26.00](https://doi.org/10.18239/manuales_2023.26.00), y
 - Lógica Digital y Tecnología de Computadores - Un enfoque práctico mediante simulación con Logisim (vol. 2) - Problemas Resueltos. Eds. de la Universidad de Castilla-La Mancha, abr. 2024. ISBN: 978-84-9044-658-4. DOI: [10.18239/manuales\_2024.27.00](https://doi.org/10.18239/manuales_2024.27.00)
 
