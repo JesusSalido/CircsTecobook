@@ -3,11 +3,11 @@
 #### 6.1 El Comparador
 
 **Definición y Funcionamiento**
-- Un comparador es un circuito combinacional que compara dos entradas A y B y produce tres salidas: A<B, A=B y A>B.
+- Un comparador es un circuito combinacional que compara dos entradas $A$ y $B$ y produce tres salidas: $A<B$, $A=B$ y $A>B$.
 - **Diseño de 1 bit**:
-  - A=B: Se utiliza una puerta XNOR.
-  - A>B: Se evalúa mediante una puerta AND.
-  - A<B: Se logra mediante otra puerta AND.
+  - $A=B$: Se utiliza una puerta XNOR.
+  - $A>B$: Se evalúa mediante una puerta AND.
+  - $A<B$: Se logra mediante otra puerta AND.
 - **Comparadores de N bits**:
   - Construidos modularmente usando comparadores de 1 bit y lógica adicional para manejar los resultados de bits menos significativos.
   - Comparadores más grandes se pueden construir en cascada, como se ilustra con el comparador de 4 bits y el circuito integrado 74HC85.
@@ -51,7 +51,7 @@
 
 **Sumador-Restador**
 - **Definición**: Realiza sumas y restas considerando números negativos en complemento a dos.
-- **Implementación**: Emplea puertas XOR para invertir el operando B en la operación de resta.
+- **Implementación**: Emplea puertas XOR para invertir el sustraendo ($B$) en la operación de resta.
 
 **Sumador BCD**
 - **Definición**: Realiza sumas en código BCD, detectando y corrigiendo sumas que exceden el valor 9.
