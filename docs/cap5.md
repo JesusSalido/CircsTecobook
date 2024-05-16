@@ -3,12 +3,12 @@
 #### 5.1 Decodificador Binario
 
 **Definición y Características**
-- **Decodificador n x 2^n**: Módulo con n entradas y 2^n salidas, que activa una única salida correspondiente al código binario en su entrada.
+- **Decodificador $n \times 2^n$**: Módulo con $n$ entradas y $2^n$ salidas, que activa una única salida correspondiente al código binario en su entrada.
 - **Función**: Realiza la decodificación del código de entrada, activando la salida correspondiente.
 
 **Implementación**
 - Un DEC con salidas activas a nivel alto actúa como un generador de minitérminos, mientras que uno con salidas activas a nivel bajo genera maxitérminos.
-- Implementación típica incluye 2^n puertas AND y n inversores, con una entrada adicional de habilitación.
+- Implementación típica incluye $2^n$ puertas AND y $n$ inversores, con una entrada adicional de habilitación.
 
 **Aplicaciones**
 - Utilizado para habilitación selectiva de subsistemas en sistemas digitales complejos, como en la habilitación de periféricos compartidos en un bus de datos de un computador.
@@ -24,7 +24,7 @@
 
 **Implementación**
 - Usando una red AND/OR para decodificar los productos canónicos de las entradas de selección y combinando las salidas con una puerta OR.
-- Señal de habilitación (E) controla la activación de la salida.
+- Señal de habilitación ($E$) controla la activación de la salida.
 
 **Teorema de Expansión de Shannon**
 - Permite implementar cualquier función lógica con un MUX al conectar los valores de la tabla de verdad de la función a las entradas del MUX.
@@ -44,7 +44,7 @@
 #### 5.4 Codificador Binario
 
 **Definición y Características**
-- **Codificador (ENC)**: Convierte una de las 2^n entradas activas en un código binario de n bits.
+- **Codificador (ENC)**: Convierte una de las $2^n$ entradas activas en un código binario de $n$ bits.
 - **Función**: Realiza la operación inversa del DEC, generando el código binario correspondiente a la entrada activada.
 
 **Implementación**
@@ -52,7 +52,7 @@
 
 **Codificador con Prioridad**
 - Implementa un circuito de prioridad para activar únicamente la entrada de mayor prioridad cuando múltiples entradas están activas.
-- Señales auxiliares como Enable input (Ei), Group select (Gs), y Enable output (Eo) facilitan la diferenciación de estados y la conexión en cadena de múltiples codificadores.
+- Señales auxiliares como Enable input ($E_i$), Group select ($G_s$), y Enable output ($E_o$) facilitan la diferenciación de estados y la conexión en cadena de múltiples codificadores.
 
 ### Conceptos Clave
 
