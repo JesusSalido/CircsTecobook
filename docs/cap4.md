@@ -8,9 +8,9 @@
 
 **Implementación**
 - Se describen mediante expresiones booleanas o tablas de verdad.
-- **Ejemplo**: Para un circuito con entradas A, B, C y salidas f y g, se componen operaciones para obtener:
-  - \( f(A,B,C) = AB + (A+B)C \)
-  - \( g(A,B,C) = (AB+(A+B)C)'(A+B+C)+ABC \)
+- **Ejemplo**: Para un circuito con entradas $A$, $B$, $C$ y salidas $f$ y $g$, se componen operaciones para obtener:
+  - $f(A,B,C) = AB + (A+B)C$
+  - $g(A,B,C) = (AB+(A+B)C)'(A+B+C)+ABC$
 
 **Formas Canónicas**
 - **SOP (Suma de Productos)**: Red AND/OR donde las puertas AND realizan productos y la puerta OR realiza la suma.
@@ -56,8 +56,8 @@
 
 **Ejemplo**
 - **Circuito de Cálculo de Mayoría**:
-  - Entradas: A, B, C.
-  - Salida: \( f = BC + AC + AB \) (forma simplificada SOP).
+  - Entradas: $A$, $B$, $C$.
+  - Salida: $f = BC + AC + AB$ (forma simplificada SOP).
 
 **Minimización de Funciones**
 - Uso de técnicas como K-maps para obtener las formas SOP y POS simplificadas.
