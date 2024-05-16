@@ -9,17 +9,17 @@ En este repositorio se han recopilado los circuitos de Logisim empleados durante
 
 De este modo, existen dos directorios del repositorio correspondientes a cada una de dichas obras. En cada uno de ellos el nombre de los ficheros indican los capítulos en los que se estudian y emplean los circuitos contenidos en el fichero. Cada fichero contiene un número variable de circuitos que pueden agruparse por una temática.
 
-En el directorio `\docs` se han publicado resúmenes de cada uno de los capítulos del libro de teoría:
+En el directorio `/docs` se han publicado resúmenes de cada uno de los capítulos del libro de teoría:
   
-  1. [Introducción a los Sistemas Digitales](\docs\cap1.md).
-  2. [Sistemas de Numeración](\docs\cap2.md).
-  3. [Puertas Lógicas y Álgebra de Boole](\docs\cap3.md).
-  4. [Circuitos Digitales Combinacionales](\docs\cap4.md).
-  5. [Módulos Combinacionales Básicos](\docs\cap5.md).
-  6. [Módulos Lógicos y Aritméticos](\docs\cap6.md).
-  7. [Biestables](\docs\cap7.md).
-  8. [Registros y Contadores](\docs\cap8.md).
-  9. [Sistemas Secuenciales Síncronos](\docs\cap9.md).
+  1. [Introducción a los Sistemas Digitales](/docs/cap1.md).
+  2. [Sistemas de Numeración](/docs/cap2.md).
+  3. [Puertas Lógicas y Álgebra de Boole](/docs/cap3.md).
+  4. [Circuitos Digitales Combinacionales](/docs/cap4.md).
+  5. [Módulos Combinacionales Básicos](/docs/cap5.md).
+  6. [Módulos Lógicos y Aritméticos](/docs/cap6.md).
+  7. [Biestables](/docs/cap7.md).
+  8. [Registros y Contadores](/docs/cap8.md).
+  9. [Sistemas Secuenciales Síncronos](/docs/cap9.md).
  
 -----
 #### Citación y contacto
