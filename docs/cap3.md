@@ -11,111 +11,36 @@ Logisim es una herramienta educativa que permite la simulación de sistemas digi
 **Puerta NOT**
 - **Función**: Inversión lógica (salida es el complemento de la entrada).
 - **Símbolo**: Triángulo seguido de una burbuja (◦).
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c}
-  A & A' \\
-  \hline
-  0 & 1 \\
-  1 & 0 \\
-  \end{array}
-  \]
 - **Propiedad**: Involución por doble aplicación: \((A')' = A\).
 
 **Puerta AND**
 - **Función**: Producto lógico (salida es 1 si todas las entradas son 1).
 - **Símbolo**: D con dos entradas.
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c|c}
-  A & B & AB \\
-  \hline
-  0 & 0 & 0 \\
-  0 & 1 & 0 \\
-  1 & 0 & 0 \\
-  1 & 1 & 1 \\
-  \end{array}
-  \]
 - **Propiedades**: Conmutativa, asociativa, elemento neutro, idempotencia, complemento.
 
 **Puerta OR**
 - **Función**: Suma lógica (salida es 1 si alguna entrada es 1).
 - **Símbolo**: Curva con dos entradas.
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c|c}
-  A & B & A+B \\
-  \hline
-  0 & 0 & 0 \\
-  0 & 1 & 1 \\
-  1 & 0 & 1 \\
-  1 & 1 & 1 \\
-  \end{array}
-  \]
 - **Propiedades**: Conmutativa, asociativa, elemento neutro, idempotencia, complemento.
 
 **Puerta NAND**
 - **Función**: AND negado (salida es 0 si todas las entradas son 1).
 - **Símbolo**: D con burbuja en la salida.
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c|c}
-  A & B & (AB)' \\
-  \hline
-  0 & 0 & 1 \\
-  0 & 1 & 1 \\
-  1 & 0 & 1 \\
-  1 & 1 & 0 \\
-  \end{array}
-  \]
 - **Propiedades**: Conmutativa, no asociativa, complemento.
 
 **Puerta NOR**
 - **Función**: OR negado (salida es 1 si todas las entradas son 0).
 - **Símbolo**: Curva con burbuja en la salida.
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c|c}
-  A & B & (A+B)' \\
-  \hline
-  0 & 0 & 1 \\
-  0 & 1 & 0 \\
-  1 & 0 & 0 \\
-  1 & 1 & 0 \\
-  \end{array}
-  \]
 - **Propiedades**: Conmutativa, no asociativa, complemento.
 
 **Puerta XOR**
 - **Función**: OR exclusivo (salida es 1 si una y solo una entrada es 1).
 - **Símbolo**: Curva con línea curva adicional.
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c|c}
-  A & B & A \oplus B \\
-  \hline
-  0 & 0 & 0 \\
-  0 & 1 & 1 \\
-  1 & 0 & 1 \\
-  1 & 1 & 0 \\
-  \end{array}
-  \]
 - **Propiedades**: Conmutativa, asociativa, elemento neutro.
 
 **Puerta XNOR**
 - **Función**: OR exclusivo negado (salida es 1 si las entradas son iguales).
 - **Símbolo**: Curva con línea curva adicional y burbuja.
-- **Tabla de Verdad**: 
-  \[
-  \begin{array}{c|c|c}
-  A & B & (A \oplus B)' \\
-  \hline
-  0 & 0 & 1 \\
-  0 & 1 & 0 \\
-  1 & 0 & 0 \\
-  1 & 1 & 1 \\
-  \end{array}
-  \]
 - **Propiedades**: Conmutativa, asociativa, elemento neutro.
 
 #### 3.4 Álgebra de Boole Aplicada a los Sistemas Digitales
